@@ -104,6 +104,7 @@ h1 {
     font-weight: 1;
     background-color: transparent;
     text-shadow: 0 0 10px #d56aff, 0 0 40px #d56aff, 0 0 80px #d56aff, 0 0 90px #d56aff, 0 0 100px #d56aff, 0 0 120px #d56aff;
+    cursor: cell;
 }
 .Sublogo{
     color: white;
