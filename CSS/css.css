@@ -276,3 +276,72 @@ h1 {
     color: white;
     text-shadow: 0 0 10px #d56aff, 0 0 40px #d56aff, 0 0 80px #d56aff, 0 0 90px #d56aff, 0 0 100px #d56aff, 0 0 120px #d56aff;
 }
+
+
+
+/*--------- FREE SHORTS ----------*/
+
+.sliders{
+    min-height: 110vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #08061b;
+}
+.slide-content{
+    margin: 0 40px;
+}
+.card{
+    width: 320px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: #d56aff;
+    background-color: #08061b;
+}
+.image-content, .card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+.image-content{
+    row-gap: 5px;
+}
+.card-image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    padding: 3px;
+}
+.card-image .card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.name{
+    font-size: 18px;
+    font-weight: 500;
+    color: #d56aff;
+}
+.discription{
+    font-size: 14px;
+    color: #aefeff;
+    
+}
+.button{
+    border: none;
+    font-size: 16px;
+    background-color: #08061b;
+    color: #ff0077;
+    padding: 8px 16px;
+    border-style: solid;
+    border-color: #ff0077;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.button:hover{
+    box-shadow: 0 0 10px #ff0077, 0 0 20px #ff0077;
+}
