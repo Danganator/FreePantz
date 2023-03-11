@@ -93,19 +93,6 @@ h1 {
     color: #ff0077;
     text-shadow: 0 0 10px #ff0077;
 }
-.Mainlogo{
-    color: white;
-    display: flex;
-    position: absolute;
-    top: 150px;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 8.69vw;
-    font-weight: 1;
-    background-color: transparent;
-    text-shadow: 0 0 10px #d56aff, 0 0 40px #d56aff, 0 0 80px #d56aff, 0 0 90px #d56aff, 0 0 100px #d56aff, 0 0 120px #d56aff;
-    cursor: cell;
-}
 .Sublogo{
     color: white;
     display: flex;
@@ -243,4 +230,49 @@ h1 {
     .navbar.open{
         right: 2%;
     }
+}
+
+
+
+
+.Mainlogo{
+    color: rgb(112, 108, 108);
+    display: flex;
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 8.69vw;
+    font-weight: 1;
+    background-color: transparent;
+    cursor: pointer;
+}
+.Mainlogo li{
+    animation: animate 0.5s 1 alternate;
+}
+.Mainlogo .delay1{ animation-delay: 1s;}
+.Mainlogo .delay2{ animation-delay: 5s;}
+.Mainlogo .delay3{ animation-delay: 8s;}
+.Mainlogo .delay4{ animation-delay: 9s;}
+.Mainlogo .delay5{ animation-delay: 4s;}
+.Mainlogo .delay6{ animation-delay: 12s;}
+.Mainlogo .delay7{ animation-delay: 2s;}
+.Mainlogo .delay8{ animation-delay: 14s;}
+.Mainlogo .delay9{ animation-delay: 11s;}
+@keyframes animate{
+    0%{
+        color: rgb(112, 108, 108);
+    }
+    50%{
+        opacity: 1;
+        color: white;
+        text-shadow: 0 0 10px #d56aff, 0 0 40px #d56aff, 0 0 80px #d56aff, 0 0 90px #d56aff, 0 0 100px #d56aff, 0 0 120px #d56aff;
+    }
+    100%{
+        color: rgb(112, 108, 108);
+    }
+}
+.Mainlogo li:hover{
+    color: white;
+    text-shadow: 0 0 10px #d56aff, 0 0 40px #d56aff, 0 0 80px #d56aff, 0 0 90px #d56aff, 0 0 100px #d56aff, 0 0 120px #d56aff;
 }
