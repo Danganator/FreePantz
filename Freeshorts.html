@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css.css">
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+        <title>Free Shortz</title>
+    </head>
+    <header>
+        <a href="Home.html" class="logo"><span>FReE PANTZ</span></a>
+        <ul class="navbar">
+            <li><a href="#">Free Shorts</a></li>
+            <li><a href="#">BONGO MARKET</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">RIvAL COMPANIeS</a></li>
+        </ul>
+
+        <div class="main">
+            <a href="#" class="user">Sign I</a>
+            <a href="#">Register</a>
+
+            <div class="container">
+                <input type="checkbox" id="checkbox1" class="checkbox1 visuallyHidden">
+                <label for="checkbox1">
+                    <div class="hamburger hamburger1">
+                        <span class="bar bar1"></span>
+                        <span class="bar bar2"></span>
+                        <span class="bar bar3"></span>
+                        <span class="bar bar4"></span>
+                    </div>
+                </label>
+            </div>
+
+        </div>
+        <script>
+            let menu = document.querySelector('#checkbox1');
+            let navbar = document.querySelector('.navbar');
+
+            menu.onclick = () => {
+                menu.classList.toggle('bx-x');
+                navbar.classList.toggle('open');
+            }
+        </script>
+    </header>
+    <body>
+        <h1 class="Mainlogo">FReE SHORTZ</h1>
+    </body>
+</html>
