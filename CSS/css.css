@@ -288,6 +288,12 @@ h1 {
     justify-content: center;
     background-color: #08061b;
 }
+.slide-container{
+    max-width: 1500px;
+    width: 100%;
+    background-color: grey;
+    padding: 40px 0;
+}
 .slide-content{
     margin: 0 40px;
 }
@@ -305,7 +311,15 @@ h1 {
     padding: 10px 14px;
 }
 .image-content{
+    position: relative;
     row-gap: 5px;
+}
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
 }
 .card-image{
     position: relative;
