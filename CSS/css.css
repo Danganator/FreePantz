@@ -103,7 +103,7 @@ h1 {
     font-size: 8.69vw;
     font-weight: 1;
     background-color: transparent;
-    text-shadow: 0 0 10px black, 0 0 40px black, 0 0 80px black, 0 0 90px white, 0 0 100px white, 0 0 120px white;
+    text-shadow: 0 0 10px #d56aff, 0 0 40px #d56aff, 0 0 80px #d56aff, 0 0 90px #d56aff, 0 0 100px #d56aff, 0 0 120px #d56aff;
 }
 .Sublogo{
     color: white;
