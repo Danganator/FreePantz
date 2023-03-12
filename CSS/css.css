@@ -3,6 +3,10 @@
     src: url(Fonts/EquinoxRegular.otf);
 }
 
+h2{
+    color: aliceblue;
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -97,10 +101,10 @@ h1 {
     color: white;
     display: flex;
     position: absolute;
-    top: 300px;
+    top: 40vh;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 2vw;
+    font-size: 30px;
     font-weight: 1;
     background-color: transparent;
     text-shadow: 0 0 10px #d56aff, 0 0 40px #d56aff, 0 0 80px #d56aff, 0 0 90px #d56aff, 0 0 100px #d56aff, 0 0 120px #d56aff;
@@ -231,24 +235,42 @@ h1 {
         right: 2%;
     }
 }
-
-
-
-
 .Mainlogo{
     color: rgb(112, 108, 108);
     display: flex;
     position: absolute;
-    top: 150px;
+    top: 18vh;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 8.69vw;
+    font-size: 150px;
     font-weight: 1;
     background-color: transparent;
     cursor: pointer;
 }
 .Mainlogo li{
     animation: animate 0.5s 1 alternate;
+}
+@media (max-width: 1280px){
+    .Mainlogo{
+        font-size: 120px;
+    }
+}
+@media (max-width: 1090px){
+    .Mainlogo{
+        font-size: 100px;
+    }
+    .Sublogo{
+        font-size: 20px;
+    }
+}
+@media (max-width: 658px){
+    .Mainlogo{
+        top: 25vh;
+        font-size: 50px;
+    }
+    .Sublogo{
+        font-size: 20px;
+    }
 }
 .Mainlogo .delay1{ animation-delay: 1s;}
 .Mainlogo .delay2{ animation-delay: 5s;}
@@ -280,3 +302,4 @@ h1 {
 
 
 /*--------- FREE SHORTS ----------*/
+
