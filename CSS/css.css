@@ -257,7 +257,8 @@ h1 {
 }
 @media (max-width: 1090px){
     .Mainlogo{
-        font-size: 100px;
+        font-size: 10vh;
+        top: 25vh;
     }
     .Sublogo{
         font-size: 20px;
@@ -266,10 +267,10 @@ h1 {
 @media (max-width: 658px){
     .Mainlogo{
         top: 25vh;
-        font-size: 50px;
+        font-size: 10vw;
     }
     .Sublogo{
-        font-size: 20px;
+        font-size: 3vw;
     }
 }
 .Mainlogo .delay1{ animation-delay: 1s;}
