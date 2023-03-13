@@ -20,7 +20,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 300vw;
+    min-height: 200vw;
 }
 header{
     position: absolute;
