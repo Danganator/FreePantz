@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
 @font-face {
     font-family: Equinox;
     src: url(Fonts/EquinoxRegular.otf);
@@ -6,21 +7,23 @@
 h2{
     color: aliceblue;
 }
-
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
     text-decoration: none;
     list-style: none;
     font-family: Equinox;
+    box-sizing: border-box;
 }
 body{
-    min-height: 100vh;
     background: #08061b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300vw;
 }
 header{
-    position: fixed;
+    position: absolute;
     width: 100%;
     top: 0;
     right: 0;
@@ -51,6 +54,7 @@ h1 {
     padding: 15px 30px;
     overflow: hidden;
     transition: 10s;
+    margin-left: 25px;
 }
 .logo span:hover{
     color: white;
@@ -301,6 +305,83 @@ h1 {
 }
 
 
-
 /*--------- FREE SHORTS ----------*/
 
+.grid {
+  display: grid;
+  width: 114em;
+  grid-gap: 6rem;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  align-items: start;
+  padding: 3rem;
+}
+
+.grid-item {
+  background-color: #08061b;
+  border-radius: 0.4rem;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.2s;
+  border-style: solid;
+  border-color: #d56aff;
+}
+
+.grid-item:hover {
+  transform: translateY(-0.5%);
+  box-shadow: 0 0 10px #d56aff, 0 0 20px #d56aff, 0 0 40px #d56aff;
+}
+
+.card-content {
+  padding: 3rem;
+}
+
+.card-header {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #ff0077;
+  margin-bottom: 1.5rem;
+}
+
+.card-text {
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.7;
+  color: #aefeff;
+  margin-bottom: 2.5rem;
+}
+
+.card-btn {
+  display: block;
+  width: 100%;
+  padding: 1.5rem;
+  font-size: 2rem;
+  text-align: center;
+  color: #ff0077;
+  background-color: #08061b;
+  border-style: solid;
+  border-color: #ff0077;
+  transition: 0.2s;
+  cursor: pointer;
+  letter-spacing: 0.1rem;
+}
+
+.card-btn span {
+  margin-left: 1rem;
+  transition: 0.2s;
+}
+
+.card-btn:hover,
+.card-btn:active {
+    padding: 2rem;
+}
+
+.card-btn:hover span,
+.card-btn:active span {
+  margin-left: 1.5rem;
+}
+
+@media only screen and (max-width: 60em) {
+  .grid {
+    grid-gap: 3rem;
+  }
+}
