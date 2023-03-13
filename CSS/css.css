@@ -311,6 +311,7 @@ h1 {
     color: #d56aff;
     position: absolute;
     top: 400px;
+    text-shadow: 0 0 10px #d56aff;
 }
 
 .shortsub1{
