@@ -340,8 +340,7 @@ h1 {
 }
 
 .grid-item:hover {
-    transform: translateY(-0.5%);
-    box-shadow: 0 0 10px #d56aff, 0 0 20px #d56aff, 0 0 40px #d56aff;
+    box-shadow: 0 0 10px #d56aff, 0 0 20px #d56aff;
 }
 
 .card-content {
@@ -385,7 +384,9 @@ h1 {
 
 .card-btn:hover,
 .card-btn:active {
-    padding: 2rem;
+    background-color: #ff0077;
+    color: #08061b;
+    border-radius: 10px;
 }
 
 .card-btn:hover span,
