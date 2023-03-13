@@ -307,67 +307,80 @@ h1 {
 
 /*--------- FREE SHORTS ----------*/
 
-.grid {
-  display: grid;
-  width: 114em;
-  grid-gap: 6rem;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  align-items: start;
-  padding: 3rem;
+.shorthead1{
+    color: #d56aff;
+    position: absolute;
+    top: 400px;
+}
+
+.shortsub1{
+    color: #d56aff;
+    position: absolute;
+    top: 460px;
+}
+
+.grid {  
+    display: grid;
+    width: 114em;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    align-items: start;
+    padding: 3rem;
+    padding-top: 600px;
 }
 
 .grid-item {
-  background-color: #08061b;
-  border-radius: 0.4rem;
-  overflow: hidden;
-  cursor: pointer;
-  transition: 0.2s;
-  border-style: solid;
-  border-color: #d56aff;
+    background-color: #08061b;
+    border-radius: 0.4rem;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.2s;
+    border-style: solid;
+    border-color: #d56aff;
 }
 
 .grid-item:hover {
-  transform: translateY(-0.5%);
-  box-shadow: 0 0 10px #d56aff, 0 0 20px #d56aff, 0 0 40px #d56aff;
+    transform: translateY(-0.5%);
+    box-shadow: 0 0 10px #d56aff, 0 0 20px #d56aff, 0 0 40px #d56aff;
 }
 
 .card-content {
-  padding: 3rem;
+    padding: 3rem;
 }
 
 .card-header {
-  font-size: 3rem;
-  font-weight: 500;
-  color: #ff0077;
-  margin-bottom: 1.5rem;
+    font-size: 3rem;
+    font-weight: 500;
+    color: #ff0077;
+    margin-bottom: 1.5rem;
 }
 
 .card-text {
-  font-size: 1.6rem;
-  letter-spacing: 0.1rem;
-  line-height: 1.7;
-  color: #aefeff;
-  margin-bottom: 2.5rem;
+    font-size: 1.6rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.7;
+    color: #aefeff;
+    margin-bottom: 2.5rem;
 }
 
 .card-btn {
-  display: block;
-  width: 100%;
-  padding: 1.5rem;
-  font-size: 2rem;
-  text-align: center;
-  color: #ff0077;
-  background-color: #08061b;
-  border-style: solid;
-  border-color: #ff0077;
-  transition: 0.2s;
-  cursor: pointer;
-  letter-spacing: 0.1rem;
+    display: block;
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 2rem;
+    text-align: center;
+    color: #ff0077;
+    background-color: #08061b;
+    border-style: solid;
+    border-color: #ff0077;
+    transition: 0.2s;
+    cursor: pointer;
+    letter-spacing: 0.1rem;
 }
 
 .card-btn span {
-  margin-left: 1rem;
-  transition: 0.2s;
+    margin-left: 1rem;
+    transition: 0.2s;
 }
 
 .card-btn:hover,
@@ -377,11 +390,11 @@ h1 {
 
 .card-btn:hover span,
 .card-btn:active span {
-  margin-left: 1.5rem;
+    margin-left: 1.5rem;
 }
 
 @media only screen and (max-width: 60em) {
-  .grid {
-    grid-gap: 3rem;
-  }
+    .grid {
+        grid-gap: 3rem;
+    }
 }
