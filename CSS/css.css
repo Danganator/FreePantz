@@ -3,7 +3,6 @@
     font-family: Equinox;
     src: url(Fonts/EquinoxRegular.otf);
 }
-
 h2{
     color: aliceblue;
 }
@@ -240,7 +239,8 @@ h1 {
     }
 }
 .Mainlogo{
-    color: rgb(112, 108, 108);
+    color: #d56aff;
+    text-shadow: 0 0 10px #d56aff, 0 0 30px #d56aff, 0 0 50px #d56aff;
     display: flex;
     position: absolute;
     top: 18vh;
@@ -299,23 +299,19 @@ h1 {
         color: rgb(112, 108, 108);
     }
 }
-.Mainlogo li:hover{
-    color: white;
-    text-shadow: 0 0 10px #d56aff, 0 0 40px #d56aff, 0 0 80px #d56aff, 0 0 90px #d56aff, 0 0 100px #d56aff, 0 0 120px #d56aff;
-}
 
 
 /*--------- FREE SHORTS ----------*/
 
 .shorthead1{
-    color: #d56aff;
+    color: #ff0077;
     position: absolute;
     top: 400px;
-    text-shadow: 0 0 10px #d56aff;
+    text-shadow: 0 0 10px #ff0077;
 }
 
 .shortsub1{
-    color: #d56aff;
+    color: #ff0077;
     position: absolute;
     top: 460px;
 }
